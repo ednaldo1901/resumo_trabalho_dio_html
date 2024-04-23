@@ -1,0 +1,60 @@
+p{
+    width: 600px;
+}
+
+img{
+    float: left;
+    width: 350px;
+    height: 249px;
+    margin-right: 20px;
+}
+nav{background: rgb(112, 66, 66);
+}
+ nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ nav ul li{
+    display: inline;
+
+ }
+ nav ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: antiquewhite;
+    text-decoration: none;}
+
+nav ul li a:hover{
+    background: red;
+
+}
+
+.seccion{
+    padding: 10px;
+    height: auto;
+    background-image: url(/assets/css/imagensCss/Colored-Shapes.svg);
+    color: antiquewhite;
+}
+.seccion-white{
+    padding: 10px;
+    height: auto;
+    background-image: url(/assets/css/imagensCss/Simple-Shiny.svg);
+    color: black;}
+
+aside nav ul li a img{width: 38px;
+    margin: 0 10px 0 0 ;
+    padding: 0;
+    height: 19px;
+}
+
+.espaco{
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.remove-type{
+    list-style-type: none;
+}
+
+.hr{ margin-bottom: 50px;}
